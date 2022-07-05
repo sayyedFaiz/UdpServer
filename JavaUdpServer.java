@@ -16,7 +16,7 @@ public class JavaUdpServer {
 	}
 	
 	private static String word = "Hello World";
-	private static int serverport = 5007;
+	private static int serverport = 5011;
 	private static State myState = null;
 	private static DatagramSocket socket = null;
 	private static String message = null;
