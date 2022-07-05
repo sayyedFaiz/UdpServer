@@ -21,7 +21,7 @@ do
     # if [[ "$host" != "129.69.210.174" ]]
     then
         # ssh ${TEAM_USER}@${host} 'javac Server.java'
-         # java $(cut -d'.' -f1 <<<${FILE_TO_COMPILE_EXECUTE})&"
+        # java $(cut -d'.' -f1 <<<${FILE_TO_COMPILE_EXECUTE})&"
     fi
 done
 echo " ++ Successfully transfered and executed files on all defined hosts"
