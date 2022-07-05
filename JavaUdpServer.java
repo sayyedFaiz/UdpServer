@@ -22,7 +22,7 @@ public class JavaUdpServer {
 	private static String message = null;
 	private static SocketAddress sockaddr = null;
 	
-	private static List<String> addressTarget = new ArrayList();
+	private static List<String> addressTarget = new ArrayList<String>();
 	
 
     public static void main(String[] args) throws IOException {
