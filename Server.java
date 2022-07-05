@@ -8,7 +8,7 @@ import java.net.*;
 import java.util.*;
 import java.util.Date;
 
-public class JavaUdpServer {
+public class Server{
 	private enum State {
 		SOURCE,
 		NODE,
